@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <button class="btn btn-default" onclick="history.go(-1);"> Go back</button>
+    <div class="row well">
+        <form  name="userForm" ng-submit="submit_news()" novalidate>
+        <label> Headline</label>
+        <input type="text-area" ng-model="headLine">
+        <label>Description</label>
+        <input type="text-area" ng-model="description">
+        <label>author</label>
+        <input type="text" ng-model="name">
+
+            <p>
+                <label>Select a date</label>
+                <input type="date" id="date" ng-model="datevalue" />
+            </p>
+
+            <p> {{ datevalue | date : 'dd/MM/yyyy'}} </p>
+            <button class="btn btn-primary" > Submit</button>
+        </form>
+
+
+    </div>
+</div>

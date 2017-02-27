@@ -1,0 +1,18 @@
+.login_content1{
+
+    height: 210px;
+    width: 400px;
+    /*background: black;*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+body{
+    /*background-color: #080808;*/
+}
+.userForm.ng-invalid {
+    background: red;
+    color:white;
+}

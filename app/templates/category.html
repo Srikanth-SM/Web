@@ -1,0 +1,35 @@
+<!--<div ng-app="myApp" ng-controller="myController as C">-->
+    <!--{{  C.firstName + " " + C.lastName }}-->
+    <div class="container ">
+        <div class="login_content1">
+        <div class="row">
+
+
+                <div class="well well-sm ">
+                    <!--<div class="col-sm-6 col-lg-12">-->
+                    <!--<form action="result.html" method="get">-->
+                    <div class="btn btn-group btn-group-vertical center-block ">
+                        <!--<ul>-->
+                        <!--{{buttons.getKeys()}}-->
+                        <!--{{1+4 }} srikanth-->
+                        <!--<button>dakjdkajd</button>-->
+                        <!--<button class="btn" ng-repeat="i in  getKeys()">{{i}}</button>-->       <!--"-->
+                        <button class="btn btn-primary"  ng-click="displayCategory(button)"  ng-repeat="button in getKeys() track by $index" name={{button}} value={{button}}> {{button}}</button>
+                        <!--<li class="btn-group-vertical" ng-repeat="(key, value) in buttons.categories">-->
+                        <button class="btn btn-success"  ng-click='displayCategory("addnews")' name='addnews' value='addnews'> addnews </button>
+
+                        <!--asdad-->
+                        <!--<button class="btn btn-primary" ng-click={{buttons.displayCategory(key)}} type="submit" name={{key}} value={{key}}> {{key}}</button>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+            <!--</form>-->
+
+
+        </div>
+    </div>
+<!--</div>-->
